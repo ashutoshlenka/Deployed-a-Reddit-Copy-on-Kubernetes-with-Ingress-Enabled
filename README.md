@@ -1,6 +1,10 @@
 # Deployed-a-Reddit-Copy-on-Kubernetes-with-Ingress-Enabled
 projects
 
+For this project 1st u have to create two ec2 instances. Let's assume the first instance name is CI server and the senond one is Deployment server. And remember one thing while creating the second server here you should use t2.medium instance type bcz on that server we have to install minikube. 
+
+
+
 1st step (clone the git repo)
 git clone https://github.com/LondheShubham153/reddit-clone-k8s-ingress.git
 
